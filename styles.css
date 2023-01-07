@@ -89,7 +89,7 @@
 /* Failures List Section Styles */
 
 .my-failures-list{
-    margin: 50px 300px 130px 206px;
+    margin: 50px 300px 130px 200px;
     display: flex;
     gap: 85px;
     justify-content: space-between;
