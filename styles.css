@@ -1,0 +1,222 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Button Styles */
+.primary-btn{
+    background: #F15B22;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.outline-btn{
+    width: 160px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+/* Header Section Styles */
+.header{
+    height: 700px;
+    background-image: url('images/banner/banner2.png');
+    text-align: right;
+    padding: 216px 230px 0px 700px;
+    background-repeat: no-repeat;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+.header p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    color: #444343;
+    padding-left: 70px;
+}
+
+/* Feature i love section styles */
+.feature-i-love{
+    height: 350px;
+}
+.feature-i-love h2{
+    text-align: center;
+    font-size: 33px;
+    color: #151414;
+}
+.feature-i-love-items{
+    display: flex;
+    margin: 100px 230px;
+    text-align: center;
+    gap: 25px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.3);
+    background-image: url('images/gradient3.png');
+}
+.icon{
+    font-size: 35px;
+    color:#f74a05;
+    padding-top: 10px;
+}
+
+.feature-item h4{
+    font-size: 25px;
+    margin-top: 15px;
+    color: #151414;
+}
+.feature-item p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+/* Failures List Section Styles */
+
+.my-failures-list{
+    margin: 50px 300px 130px 206px;
+    display: flex;
+    gap: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+.failures-items{
+    margin-top: 180px;
+}
+.failures-items h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failures-items p{
+    font-size: 18px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.fa-solid{
+    color: #F15B22;
+    margin-right: 3px;
+}
+.failures-items li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* My Plan Section Styles */
+.myplan{
+    margin: 130px 230px;
+    text-align: center;
+}
+.myplan h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.my-plan-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.my-plan-list h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+}
+.my-plan-list p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+/* Call Now Section Styles */
+.call-now{
+    margin: 130px 230px;
+    background-image:
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
+    height: 300px;
+    border-radius: 8px;
+}
+.call-description{
+    padding: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.call-description button{
+    margin-top: 32px;
+}
+
+/* Footer Section Styles */
+.footer-section{
+    height: 500px;
+    display: flex;
+    gap: 333px;
+    background: #151414;
+}
+.footer-items-info{
+    margin-top: 130px;
+    margin-left: 230px;
+}
+.footer-items-info h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-items-info p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.email{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-items-info ul{
+    display: flex;
+    margin-top: 30px;
+}
+.footer-items-info li{
+    list-style: none;
+    margin-right: 15px;
+}
+.footer-items-form{
+    margin-top: 130px;
+    margin-right: 230px;
+}
+.footer-items-form h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer-items-form input{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    
+}
+input::placeholder{
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+
